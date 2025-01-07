@@ -18,8 +18,10 @@
   margin: 100px auto;
   display: grid;
   padding: 10px;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-template-columns: repeat(auto-fill, 
+  minmax(200px, 1fr));
+  gap: 10px;
 }
 
 @media (max-width: 768px) {
